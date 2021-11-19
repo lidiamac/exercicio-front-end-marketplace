@@ -1,0 +1,171 @@
+*{
+    font-family: sans-serif;
+}
+
+
+/* beign header */
+    .normal-size{
+        background-color: #000;
+        color: #fff;
+    }
+
+    .responsive-header{
+        display: none;
+        background-color: #000;
+        color: #fff;
+    }
+
+    .local-item-responsive{
+        font-size: 12px;
+    }
+
+    .login::before{
+        content: url(image/header-login.png);
+        background: #f5b302;
+        display: inline-block;
+        border-radius: 15px;
+        background-size: 30px;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+    }
+
+    .login a, .extensao-item{
+        color: #fff;
+    }
+
+    form input{
+        width: 90%;
+        padding: 13px;
+        border-radius: 23px;
+        border: none;
+    }
+
+    form button{
+        position: relative;
+        top: 1px;
+        right: 50px;
+        border: none;
+        background-color: #fff;
+    }
+
+    .local-item::before{
+        content: url(image/localizacao.png);
+        background-color: #fff;
+        position: relative;
+        padding: 15px 3px 5px;   
+        border-radius: 17px;
+    }
+
+    /* begin navbar */
+        .navbar{
+            background-color: #000;
+        }
+
+        .nav-link{
+            color: #fff;
+            margin: 0 10px;
+        }
+
+        .local{
+            font-size: 12px;
+        }
+    /* end navbar */
+/* end header */
+
+
+/* begin categories */
+.celular::before{
+    content: url(image/celular.png);
+    max-width: 35px;
+    height: 35px;
+    background-size: 35px;
+    position: relative;
+    top: 8px;
+    padding: 8px;    
+}
+
+.iphone::before{
+    content: url(image/iphone.png);
+    max-width: 35px;
+    height: 35px;
+    background-size: 35px;
+    position: relative;
+    top: 8px;
+    padding: 8px;
+}
+
+.notebook::before{
+    content: url(image/notebook.png);
+    max-width: 35px;
+    height: 35px;
+    background-size: 35px;
+    position: relative;
+    top: 8px;
+    padding: 8px;
+}
+
+.tv::before{
+    content: url(image/tv.png);
+    max-width: 35px;
+    height: 35px;
+    background-size: 35px;
+    position: relative;
+    top: 8px;
+    padding: 8px;
+}
+
+.carro::before{
+    content: url(image/carro.png);
+    max-width: 35px;
+    height: 35px;
+    background-size: 35px;
+    position: relative;
+    top: 8px;
+    padding: 8px;
+}
+
+.outros::before{
+    content: url(image/barra-de-menu.png);
+    max-width: 35px;
+    height: 35px;
+    background-size: 35px;
+    position: relative;
+    top: 8px;
+    padding: 8px;
+}
+/* end categories */
+
+
+/* begin footer */
+    .container-footer{
+        background-color: #000;
+    }
+
+    .item-footer>a{
+        color: #fff;
+    }
+
+    .item-footer>a, .title-list-footer{
+        font-size: 15px;
+        text-decoration:none;
+    }
+/* end footer */
+
+
+
+
+@media (max-width: 902px){
+    .normal-size{
+        display: none;
+
+    }
+
+    .responsive-header{
+        display: block;
+    }
+
+    .footer{
+        display: block;
+    }
+}
